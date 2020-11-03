@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF144CBD2551122E00EB0CD8 /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF144CBC2551122E00EB0CD8 /* Sound.mp3 */; };
 		AF34D92B252EFC920085BDB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34D92A252EFC920085BDB3 /* AppDelegate.swift */; };
 		AF34D92D252EFC920085BDB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34D92C252EFC920085BDB3 /* SceneDelegate.swift */; };
 		AF34D92F252EFC920085BDB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34D92E252EFC920085BDB3 /* ViewController.swift */; };
 		AF34D932252EFC930085BDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34D930252EFC930085BDB3 /* Main.storyboard */; };
 		AF34D934252EFCC60085BDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF34D933252EFCC60085BDB3 /* Assets.xcassets */; };
 		AF34D937252EFCC60085BDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF34D935252EFCC60085BDB3 /* LaunchScreen.storyboard */; };
+		AF34D941252F59660085BDB3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF34D940252F59660085BDB3 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF144CBC2551122E00EB0CD8 /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
 		AF34D927252EFC920085BDB3 /* Single View App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Single View App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF34D92A252EFC920085BDB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF34D92C252EFC920085BDB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		AF34D933252EFCC60085BDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF34D936252EFCC60085BDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF34D938252EFCC60085BDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF34D940252F59660085BDB3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				AF34D92A252EFC920085BDB3 /* AppDelegate.swift */,
 				AF34D92C252EFC920085BDB3 /* SceneDelegate.swift */,
 				AF34D92E252EFC920085BDB3 /* ViewController.swift */,
+				AF34D940252F59660085BDB3 /* GameScene.swift */,
+				AF144CBC2551122E00EB0CD8 /* Sound.mp3 */,
 				AF34D930252EFC930085BDB3 /* Main.storyboard */,
 				AF34D933252EFCC60085BDB3 /* Assets.xcassets */,
 				AF34D935252EFCC60085BDB3 /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF144CBD2551122E00EB0CD8 /* Sound.mp3 in Resources */,
 				AF34D937252EFCC60085BDB3 /* LaunchScreen.storyboard in Resources */,
 				AF34D934252EFCC60085BDB3 /* Assets.xcassets in Resources */,
 				AF34D932252EFC930085BDB3 /* Main.storyboard in Resources */,
@@ -140,6 +147,7 @@
 			files = (
 				AF34D92F252EFC920085BDB3 /* ViewController.swift in Sources */,
 				AF34D92B252EFC920085BDB3 /* AppDelegate.swift in Sources */,
+				AF34D941252F59660085BDB3 /* GameScene.swift in Sources */,
 				AF34D92D252EFC920085BDB3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.satoshi.nakamura4.Single-View-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.satoshi.nakamura4.Single-View-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
